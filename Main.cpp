@@ -20,7 +20,7 @@ int main() {
 
 	cout << "User inputted: " << userInput << endl;
 
-	userInput = UserPrompt::prompt_user_for_int("Please input any number between -100 and 100.", "Invalid value, try again.", -100, 100);
+	userInput = UserPrompt::prompt_user_for_int("Please input any number between -100 and 100.", "Invalid value, try again.", -100, 100, 1);
 
 	cout << "User inputted: " << userInput << endl;
 }
